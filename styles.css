@@ -10,15 +10,15 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Gothic", normal; /* Define a fonte padrão */
-    background-image: url(https://images8.alphacoders.com/532/532407.jpg);
-    background-color: #DDDDDD; /* Cor de fundo da página */
+    background-image: url(https://images8.alphacoders.com/532/532407.jpg); */
+    background-color: #000000; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
-    padding: 0; /* Remove o padding padrão */
+    padding: 0; /* Remove o padding padrão */  
 }
 
 /* Estiliza os títulos h1 */
@@ -27,7 +27,7 @@ h1 {
     color: #ffffff; /* Cor do texto */
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center; /* Alinha o texto ao centro */
-    letter-spacing: 0.5rem; /* Espaçamento entre letras */
+    letter-spacing: 0.5rem; /* Espaçamento entre letras */        
 }
 
 /* Estiliza as seções da página */
@@ -90,9 +90,9 @@ section button:hover {
 }
 
 .imagem-redonda {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
-    height: 100px;
-    border-radius: 50%; /* Cria os cantos arredondados */
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: 200px;
+    border-radius: 5%; /* Cria os cantos arredondados */
     float: left; /* Posiciona a imagem à esquerda */
     margin-right: 20px; /* Cria um espaço entre a imagem e o texto */
     object-fit: cover; /* Escolha o valor adequado para o seu caso */
@@ -103,6 +103,7 @@ section button:hover {
     font-size: 2.5rem; /* Tamanho da fonte */
     color: #45474B; /* Cor do texto */
     font-family: "Gothic", normal;
+    text-align: left;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
